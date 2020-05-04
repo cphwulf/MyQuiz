@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d984b06-b91e-4e45-91cd-393a51433f20" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="UML Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b80IxAW3jV4DL5h3tBXXbPQmqh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HumanPlayerTest.pickupItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Quiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.HumanPlayerTest" />
+      <option name="METHOD_NAME" value="pickupItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HumanPlayerTest.pickupItem" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d984b06-b91e-4e45-91cd-393a51433f20" name="Default Changelist" comment="" />
+      <created>1587998336589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587998336589</updated>
+      <workItem from="1587998339051" duration="13110000" />
+      <workItem from="1588145353938" duration="1278000" />
+      <workItem from="1588578614443" duration="447000" />
+      <workItem from="1588579838807" duration="229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1860" y="142" key="#Project_Structure" timestamp="1587998382499">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1860" y="142" key="#Project_Structure/0.23.1440.839/1440.23.1920.1057@1440.23.1920.1057" timestamp="1587998382499" />
+    <state x="548" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1588105707502">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="548" y="154" key="#com.intellij.ide.util.MemberChooser/0.23.1440.838@0.23.1440.838" timestamp="1588105707502" />
+    <state x="509" y="307" width="455" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588103558706">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="509" y="307" width="455" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.838@0.23.1440.838" timestamp="1588103558706" />
+    <state width="1398" height="270" key="GridCell.Tab.0.bottom" timestamp="1588116635970">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1588116635970" />
+    <state width="1398" height="270" key="GridCell.Tab.0.center" timestamp="1588116635969">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1588116635969" />
+    <state width="1398" height="270" key="GridCell.Tab.0.left" timestamp="1588116635966">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1588116635966" />
+    <state width="1398" height="270" key="GridCell.Tab.0.right" timestamp="1588116635969">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1588116635969" />
+    <state width="1398" height="270" key="GridCell.Tab.1.bottom" timestamp="1588116635976">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.23.1440.838@0.23.1440.838" timestamp="1588116635976" />
+    <state width="1398" height="270" key="GridCell.Tab.1.center" timestamp="1588116635974">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.1.center/0.23.1440.838@0.23.1440.838" timestamp="1588116635974" />
+    <state width="1398" height="270" key="GridCell.Tab.1.left" timestamp="1588116635973">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.1.left/0.23.1440.838@0.23.1440.838" timestamp="1588116635973" />
+    <state width="1398" height="270" key="GridCell.Tab.1.right" timestamp="1588116635974">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1588116635974" />
+    <state x="514" y="178" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588093519636">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="514" y="178" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.838@0.23.1440.838" timestamp="1588093519636" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Model/HumanPlayerTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

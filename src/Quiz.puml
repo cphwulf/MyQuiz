@@ -1,0 +1,71 @@
+@startuml
+Thread ^-- ConnectionHandler
+class Main {
+MainController : mc
+}
+class ConnectionHandler  {
+Socket : client
+--
+}
+abstract class Controller {
+--
+runGame()
+{abstract} mainMenu()
+}
+class Event {
+String name
+PrintWriter pw
+--
+getWriters()
+
+
+}
+
+class Room {
+Map<String, Item> items
+Map<String, Player> players
+Map<Direction, Room> exits
+---
+---
+to(Direction dir):Room
+}
+
+enum Direction {
+NORTH
+NORTHEAST
+EAST
+SOUTHEAST
+SOUTH
+SOUTHWEST
+WEST
+NORTHWEST
+UP
+DOWN
+}
+enum Gender{
+ MASCULINE,
+ FEMININE,
+ NEUTER
+ }
+enum Action {
+QUIT
+MOVE
+TAKE
+DROP
+GIVE
+LOOK
+INVENTORY
+EXITS
+SAY
+YELL
+WHISPER
+USE
+WHO
+HELP
+}
+Controller <|-- MainController
+MainController o-- Room
+MainController --Main
+MainController -- Event
+
+@enduml
