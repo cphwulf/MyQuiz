@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d984b06-b91e-4e45-91cd-393a51433f20" name="Default Changelist" comment="" />
+    <list default="true" id="2d984b06-b91e-4e45-91cd-393a51433f20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DataMappers/RoomMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/QueueHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/RoomList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Workers/ClientConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ActorList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ActorList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/HumanPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/System.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/System.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Model/HumanPlayerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Actor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Actor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/HumanPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/System.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/System.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Model/HumanPlayerTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +41,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -29,6 +52,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1b80IxAW3jV4DL5h3tBXXbPQmqh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,6 +61,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -55,7 +80,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="HumanPlayerTest.pickupItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HumanPlayerTest.pickupItem" type="JUnit" factoryName="JUnit">
       <module name="Quiz" />
       <extension name="coverage">
         <pattern>
@@ -71,11 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.HumanPlayerTest.pickupItem" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -102,7 +122,9 @@
       <workItem from="1587998339051" duration="13110000" />
       <workItem from="1588145353938" duration="1278000" />
       <workItem from="1588578614443" duration="447000" />
-      <workItem from="1588579838807" duration="229000" />
+      <workItem from="1588579838807" duration="2981000" />
+      <workItem from="1588776324671" duration="4953000" />
+      <workItem from="1588782575419" duration="760000" />
     </task>
     <servers />
   </component>
@@ -114,10 +136,19 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="1860" y="142" key="#Project_Structure/0.23.1440.839/1440.23.1920.1057@1440.23.1920.1057" timestamp="1587998382499" />
-    <state x="548" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1588105707502">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="1836" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588782732946">
+      <screen x="1440" y="23" width="1920" height="1012" />
+    </state>
+    <state x="1836" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.23.1920.1012@1440.23.1920.1012" timestamp="1588782732946" />
+    <state x="2171" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1588782038959">
+      <screen x="1440" y="23" width="1920" height="1012" />
     </state>
     <state x="548" y="154" key="#com.intellij.ide.util.MemberChooser/0.23.1440.838@0.23.1440.838" timestamp="1588105707502" />
+    <state x="2171" y="181" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/1440.23.1920.1012@1440.23.1920.1012" timestamp="1588782038959" />
+    <state x="2187" y="289" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588782730884">
+      <screen x="1440" y="23" width="1920" height="1012" />
+    </state>
+    <state x="2187" y="289" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877/1440.23.1920.1012@1440.23.1920.1012" timestamp="1588782730884" />
     <state x="509" y="307" width="455" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588103558706">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
@@ -158,16 +189,9 @@
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="514" y="178" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.838@0.23.1440.838" timestamp="1588093519636" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Model/HumanPlayerTest.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="2115" y="257" width="670" height="676" key="search.everywhere.popup" timestamp="1588782262713">
+      <screen x="1440" y="23" width="1920" height="1012" />
+    </state>
+    <state x="2115" y="257" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.23.1920.1012@1440.23.1920.1012" timestamp="1588782262713" />
   </component>
 </project>
