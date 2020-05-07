@@ -8,7 +8,6 @@ import java.util.Hashtable;
 
 public class HumanPlayer extends Actor {
     ActorMapper actorMapper;
-    PrintWriter pw;
     private Room here;
     private Hashtable<String, Item> inventory;
     private String password;

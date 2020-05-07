@@ -1,11 +1,14 @@
 package Model;
 
 import Util.IdFactory;
-import com.mysql.cj.protocol.Message;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.nio.channels.ScatteringByteChannel;
 import java.util.ArrayList;
 
 public abstract class Actor {
+    PrintWriter pw;
     String name;
     int id;
     String description;
@@ -15,6 +18,19 @@ public abstract class Actor {
         this.name = name;
         this.id = IdFactory.getInstance().getActorId();
         items = new ArrayList<>();
+        try {
+            pw = new PrintWriter("test");
+        } catch (FileNotFoundException e) {
+            System.out.println("Not");
+        }
+    }
+
+    public PrintWriter getPw() {
+        return pw;
+    }
+
+    public void setPw(PrintWriter pw) {
+        this.pw = pw;
     }
 
     public String getName() {

@@ -33,6 +33,10 @@ public class ClientConnection extends Thread{
         pw.println("What is your name?");
         lineFromClient = br.readLine();
         HumanPlayer p = controller.registerPlayer(lineFromClient, pw);
+        while((lineFromClient = br.readLine())!= null) {
+          // now take input from client and process
+          controller.process(p, lineFromClient);
+        }
     } catch (IOException e) {
       System.out.println("Error");
     }
