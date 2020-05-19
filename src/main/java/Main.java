@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         //Logger logger = LoggerFactory.getLogger(Main.class);
         // TODO: prepare data and view for the controller
-        int numOfPlayers = 2;
+        int numOfPlayers = 4;
         int counter = 0;
         ArrayList<Socket> clients = new ArrayList<>();
         try {

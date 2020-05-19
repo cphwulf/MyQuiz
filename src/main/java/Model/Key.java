@@ -15,7 +15,7 @@ import java.util.Set;
     Hashtable<String,T> answers = new Hashtable<String, T>();
  */
 
-public class Key extends Riddle<Integer, HumanPlayer> {
+public class Key extends Riddle {
     int solution;
 
     public Key(int level, String name){
@@ -29,13 +29,13 @@ public class Key extends Riddle<Integer, HumanPlayer> {
     }
 
     @Override
-    public void setSolution(Integer pos) {
+    public void setSolution(int pos) {
 
         this.solution = pos;
     }
 
     @Override
-    public Integer getSolution() {
+    public int getSolution() {
         return this.solution;
     }
 
@@ -50,7 +50,7 @@ public class Key extends Riddle<Integer, HumanPlayer> {
     }
 
     @Override
-    public boolean solveRiddle(Integer userGuess) throws AlreadySolvedException {
+    public boolean solveRiddle(int userGuess) throws AlreadySolvedException {
         return false;
     }
 

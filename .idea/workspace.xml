@@ -2,47 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98c2e8dc-d417-4162-b662-cb9e70cf69d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/AlreadySolvedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/ItemAlreadyPickedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/NoSuchDirectionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/AIPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/BasicAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/GeoRiddle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Key.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Util/QuizConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Quiz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Quiz.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataMappers/RoomMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataMappers/RoomMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Gun.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/HumanPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/GeoRiddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/GeoRiddle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Key.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/Riddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Riddle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Workers/ClientConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Workers/ClientConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Quiz-Test-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Quiz-Test-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataMappers/RoomMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataMappers/RoomMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Actor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Actor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Gun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/HumanPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Riddle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Riddle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Workers/ClientConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Workers/ClientConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +110,8 @@
       <workItem from="1589784296747" duration="13325000" />
       <workItem from="1589860364627" duration="24000" />
       <workItem from="1589860415672" duration="6448000" />
-      <workItem from="1589878796400" duration="1152000" />
+      <workItem from="1589878796400" duration="5710000" />
+      <workItem from="1589887296162" duration="3083000" />
     </task>
     <servers />
   </component>
@@ -160,10 +127,11 @@
       <screen x="1440" y="23" width="1920" height="1011" />
     </state>
     <state x="1773" y="131" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.23.1920.1011@1440.23.1920.1011" timestamp="1588791152250" />
-    <state x="2124" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1589871573673">
+    <state x="2124" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1589882842567">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2124" y="188" key="#com.intellij.ide.util.MemberChooser/0.23.1440.839/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588860841113" />
+    <state x="2124" y="188" key="#com.intellij.ide.util.MemberChooser/0.23.1440.841/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589882842567" />
     <state x="2124" y="188" key="#com.intellij.ide.util.MemberChooser/0.23.1440.842/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589871573673" />
     <state x="2124" y="188" key="#com.intellij.ide.util.MemberChooser/0.23.1440.847/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589370637388" />
     <state x="2124" y="181" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/1440.23.1920.1015@1440.23.1920.1015" timestamp="1589803189972" />
@@ -184,68 +152,84 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2111" y="404" width="455" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.838/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588868844533" />
-    <state width="1720" height="303" key="GridCell.Tab.0.bottom" timestamp="1589872951295">
+    <state width="1804" height="321" key="GridCell.Tab.0.bottom" timestamp="1589890845071">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1804" height="321" key="GridCell.Tab.0.bottom/0.23.1440.829/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589890845071" />
     <state width="1514" height="107" key="GridCell.Tab.0.bottom/0.23.1440.838/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588869587369" />
     <state width="1514" height="217" key="GridCell.Tab.0.bottom/0.23.1440.839/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588860937306" />
+    <state width="1720" height="93" key="GridCell.Tab.0.bottom/0.23.1440.841/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589886879997" />
     <state width="1720" height="303" key="GridCell.Tab.0.bottom/0.23.1440.842/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589872951295" />
     <state width="1615" height="107" key="GridCell.Tab.0.bottom/0.23.1440.847/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588875619100" />
     <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1008@1440.23.1920.1008" timestamp="1588797233402" />
     <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1011@1440.23.1920.1011" timestamp="1588791484457" />
     <state width="1720" height="303" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1014@1440.23.1920.1014" timestamp="1589807816016" />
     <state width="1615" height="107" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1016@1440.23.1920.1016" timestamp="1589141379452" />
-    <state width="1720" height="303" key="GridCell.Tab.0.center" timestamp="1589872951293">
+    <state width="1804" height="321" key="GridCell.Tab.0.center" timestamp="1589890845067">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1804" height="321" key="GridCell.Tab.0.center/0.23.1440.829/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589890845067" />
     <state width="1514" height="107" key="GridCell.Tab.0.center/0.23.1440.838/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588869587367" />
     <state width="1514" height="217" key="GridCell.Tab.0.center/0.23.1440.839/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588860937304" />
+    <state width="1720" height="93" key="GridCell.Tab.0.center/0.23.1440.841/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589886879996" />
     <state width="1720" height="303" key="GridCell.Tab.0.center/0.23.1440.842/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589872951293" />
     <state width="1615" height="107" key="GridCell.Tab.0.center/0.23.1440.847/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588875619095" />
     <state width="1398" height="217" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1008@1440.23.1920.1008" timestamp="1588797233400" />
     <state width="1398" height="217" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1011@1440.23.1920.1011" timestamp="1588791484455" />
     <state width="1720" height="303" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1014@1440.23.1920.1014" timestamp="1589807816015" />
     <state width="1615" height="107" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1016@1440.23.1920.1016" timestamp="1589141379450" />
-    <state width="1720" height="303" key="GridCell.Tab.0.left" timestamp="1589872951292">
+    <state width="1804" height="321" key="GridCell.Tab.0.left" timestamp="1589890845064">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1804" height="321" key="GridCell.Tab.0.left/0.23.1440.829/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589890845064" />
     <state width="1514" height="107" key="GridCell.Tab.0.left/0.23.1440.838/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588869587364" />
     <state width="1514" height="217" key="GridCell.Tab.0.left/0.23.1440.839/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588860937303" />
+    <state width="1720" height="93" key="GridCell.Tab.0.left/0.23.1440.841/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589886879996" />
     <state width="1720" height="303" key="GridCell.Tab.0.left/0.23.1440.842/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589872951292" />
     <state width="1615" height="107" key="GridCell.Tab.0.left/0.23.1440.847/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588875619094" />
     <state width="1398" height="217" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1008@1440.23.1920.1008" timestamp="1588797233399" />
     <state width="1398" height="217" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1011@1440.23.1920.1011" timestamp="1588791484454" />
     <state width="1720" height="303" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1014@1440.23.1920.1014" timestamp="1589807816014" />
     <state width="1615" height="107" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1016@1440.23.1920.1016" timestamp="1589141379449" />
-    <state width="1720" height="303" key="GridCell.Tab.0.right" timestamp="1589872951294">
+    <state width="1804" height="321" key="GridCell.Tab.0.right" timestamp="1589890845070">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1804" height="321" key="GridCell.Tab.0.right/0.23.1440.829/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589890845070" />
     <state width="1514" height="107" key="GridCell.Tab.0.right/0.23.1440.838/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588869587368" />
     <state width="1514" height="217" key="GridCell.Tab.0.right/0.23.1440.839/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588860937305" />
+    <state width="1720" height="93" key="GridCell.Tab.0.right/0.23.1440.841/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589886879997" />
     <state width="1720" height="303" key="GridCell.Tab.0.right/0.23.1440.842/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589872951294" />
     <state width="1615" height="107" key="GridCell.Tab.0.right/0.23.1440.847/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588875619099" />
     <state width="1398" height="217" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1008@1440.23.1920.1008" timestamp="1588797233401" />
     <state width="1398" height="217" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1011@1440.23.1920.1011" timestamp="1588791484456" />
     <state width="1720" height="303" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1014@1440.23.1920.1014" timestamp="1589807816015" />
     <state width="1615" height="107" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1016@1440.23.1920.1016" timestamp="1589141379451" />
-    <state width="1720" height="303" key="GridCell.Tab.1.bottom" timestamp="1589872951302">
+    <state width="1804" height="321" key="GridCell.Tab.1.bottom" timestamp="1589890918435">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1804" height="321" key="GridCell.Tab.1.bottom/0.23.1440.829/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589890918435" />
+    <state width="1720" height="303" key="GridCell.Tab.1.bottom/0.23.1440.841/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589886879986" />
     <state width="1720" height="303" key="GridCell.Tab.1.bottom/0.23.1440.842/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589872951302" />
     <state width="1720" height="303" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.1920.1014@1440.23.1920.1014" timestamp="1589807824269" />
-    <state width="1720" height="303" key="GridCell.Tab.1.center" timestamp="1589872951298">
+    <state width="1804" height="321" key="GridCell.Tab.1.center" timestamp="1589890918427">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1804" height="321" key="GridCell.Tab.1.center/0.23.1440.829/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589890918427" />
+    <state width="1720" height="303" key="GridCell.Tab.1.center/0.23.1440.841/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589886879985" />
     <state width="1720" height="303" key="GridCell.Tab.1.center/0.23.1440.842/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589872951298" />
     <state width="1720" height="303" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.1920.1014@1440.23.1920.1014" timestamp="1589807824268" />
-    <state width="1720" height="303" key="GridCell.Tab.1.left" timestamp="1589872951296">
+    <state width="1804" height="321" key="GridCell.Tab.1.left" timestamp="1589890918426">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1804" height="321" key="GridCell.Tab.1.left/0.23.1440.829/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589890918426" />
+    <state width="1720" height="303" key="GridCell.Tab.1.left/0.23.1440.841/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589886879984" />
     <state width="1720" height="303" key="GridCell.Tab.1.left/0.23.1440.842/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589872951296" />
     <state width="1720" height="303" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.1920.1014@1440.23.1920.1014" timestamp="1589807824267" />
-    <state width="1720" height="303" key="GridCell.Tab.1.right" timestamp="1589872951299">
+    <state width="1804" height="321" key="GridCell.Tab.1.right" timestamp="1589890918434">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state width="1804" height="321" key="GridCell.Tab.1.right/0.23.1440.829/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589890918434" />
+    <state width="1720" height="303" key="GridCell.Tab.1.right/0.23.1440.841/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589886879985" />
     <state width="1720" height="303" key="GridCell.Tab.1.right/0.23.1440.842/1440.23.1920.1057@1440.23.1920.1057" timestamp="1589872951299" />
     <state width="1720" height="303" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.1920.1014@1440.23.1920.1014" timestamp="1589807824268" />
     <state x="1839" y="120" key="SettingsEditor" timestamp="1589784185224">
@@ -275,8 +259,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Controller/Controller.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="5" />
+          <line>140</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

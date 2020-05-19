@@ -7,15 +7,15 @@ import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
 
-public abstract class Riddle<T, P> {
+public abstract class Riddle {
     int level;
     int id;
-    T solution;
+    int solution;
     String name;
     Category category;
     boolean isSolved;
     String message;
-    List<P> solvers = new ArrayList<>();
+    List<HumanPlayer> solvers = new ArrayList<>();
     Hashtable<Integer,String> answers = new Hashtable<Integer, String>();
 
     public Riddle(int level, String name)  {
@@ -24,7 +24,7 @@ public abstract class Riddle<T, P> {
         this.isSolved=false;
     }
 
-    public boolean addSolver(T solution, P player) {
+    public boolean addSolver(int solution, HumanPlayer player) {
         if (solvers.contains(player)) {
             return false;
         } else {
@@ -32,7 +32,6 @@ public abstract class Riddle<T, P> {
             return true;
         }
     }
-
     public Hashtable<Integer, String> getAnswers() {
         return answers;
     }
@@ -66,10 +65,10 @@ public abstract class Riddle<T, P> {
     public void setMessage(String msg) {
         this.message = msg;
     }
-    public abstract void setSolution(T msg);
-    public abstract  T getSolution();
+    public abstract void setSolution(int solution);
+    public abstract  int getSolution();
     public abstract String printRiddle();
-    public abstract boolean solveRiddle(T userGuess) throws AlreadySolvedException;
+    public abstract boolean solveRiddle(int userGuess) throws AlreadySolvedException;
     public abstract void setAnswers(Integer pos, String answer);
 }
 

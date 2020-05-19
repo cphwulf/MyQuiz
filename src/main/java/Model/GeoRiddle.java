@@ -4,8 +4,8 @@ import Exceptions.AlreadySolvedException;
 
 import java.util.Hashtable;
 
-public class GeoRiddle extends Riddle<String, HumanPlayer> {
-    String solution;
+public class GeoRiddle extends Riddle {
+    int solution;
 
     Hashtable<String,String> answers = new Hashtable<>();
 
@@ -19,12 +19,12 @@ public class GeoRiddle extends Riddle<String, HumanPlayer> {
     }
 
     @Override
-    public void setSolution(String msg) {
+    public void setSolution(int msg) {
         this.solution = msg;
     }
 
     @Override
-    public String getSolution() {
+    public int getSolution() {
         return this.solution;
     }
 
@@ -34,7 +34,7 @@ public class GeoRiddle extends Riddle<String, HumanPlayer> {
     }
 
     @Override
-    public boolean solveRiddle(String userGuess) throws AlreadySolvedException {
+    public boolean solveRiddle(int userGuess) throws AlreadySolvedException {
 
         return false;
     }
