@@ -1,6 +1,7 @@
 package Workers;
 
 import Controller.Controller;
+import Exceptions.NoSuchDirectionException;
 import Model.HumanPlayer;
 
 import java.io.BufferedReader;
@@ -32,12 +33,12 @@ public class ClientConnection extends Thread{
     try {
         pw.println("What is your name?");
         lineFromClient = br.readLine();
-        HumanPlayer p = controller.registerPlayer(lineFromClient, pw);
+        HumanPlayer p = controller.registerPlayer(lineFromClient, pw, br);
         while((lineFromClient = br.readLine())!= null) {
           // now take input from client and process
           controller.process(p, lineFromClient);
         }
-    } catch (IOException e) {
+    } catch (IOException | NoSuchDirectionException e) {
       System.out.println("Error");
     }
 

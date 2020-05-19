@@ -5,13 +5,18 @@ import Util.IdFactory;
 public abstract class Item {
     boolean canBeCarried;
     String description;
+    String name;
     int itemID;
     int value;
 
-    public Item() {
+    public Item(String name) {
+        this.name = name;
         this.itemID = IdFactory.getInstance().getItemID();
         this.canBeCarried = true;
         this.value = 0;
+    }
+    public String getName() {
+        return this.name;
     }
 
     public boolean isCanBeCarried() {

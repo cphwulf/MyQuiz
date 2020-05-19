@@ -1,23 +1,24 @@
 import Controller.Controller;
-import Workers.ClientConnection;
+import Model.AIPlayer;
+import Model.Actor;
+import Model.HumanPlayer;
+import Model.Room;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.net.SocketException;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
-    private static final Logger logger = LoggerFactory.getLogger(Main.class);
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         //Logger logger = LoggerFactory.getLogger(Main.class);
         // TODO: prepare data and view for the controller
-        int numOfPlayers = 1;
-        logger.info("This is how you configure Java Logging with SLF4J");
-        logger.info("This is how you configure Java Logging with SLF4J");
-        logger.info("This is how you configure Java Logging with SLF4J");
+        int numOfPlayers = 2;
         int counter = 0;
         ArrayList<Socket> clients = new ArrayList<>();
         try {
@@ -31,8 +32,7 @@ public class Main {
         } catch (IOException e) {
         }
         Controller controller = new Controller(clients);
-
+        controller.initGame();
         controller.runGame();
-
     }
 }

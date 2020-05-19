@@ -1,36 +1,42 @@
 package Model;
 
+import Exceptions.ItemAlreadyPickedException;
 import Util.IdFactory;
+import Util.QuizConfig;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.nio.channels.ScatteringByteChannel;
 import java.util.ArrayList;
 
 public abstract class Actor {
-    PrintWriter pw;
+    Long loggedInTime;
     String name;
+    PrintWriter pw;
     int id;
     String description;
     ArrayList<Item> items;
 
     public Actor(String name) {
+        this.loggedInTime = System.currentTimeMillis();
         this.name = name;
         this.id = IdFactory.getInstance().getActorId();
         items = new ArrayList<>();
         try {
-            pw = new PrintWriter("test");
+            File file = new File(QuizConfig.aiPrintFile);
+            this.pw = new PrintWriter(file);
         } catch (FileNotFoundException e) {
-            System.out.println("Not");
+            e.getMessage();
         }
     }
 
     public PrintWriter getPw() {
-        return pw;
+        return this.pw;
     }
 
-    public void setPw(PrintWriter pw) {
-        this.pw = pw;
+    public Long getLoggedInTime() {
+        return loggedInTime;
     }
 
     public String getName() {
@@ -45,27 +51,15 @@ public abstract class Actor {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public String getDescription() {
         return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public ArrayList<Item> getItems() {
         return items;
     }
 
-    public void setItems(ArrayList<Item> items) {
-        this.items = items;
-    }
-
-    public abstract void pickupItem(Item item);
+    public abstract void pickupItem(Item item) throws ItemAlreadyPickedException;
 
     public abstract void askActor(Actor actor, Riddle riddle);
 
